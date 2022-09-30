@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Bomberman-The-OOP-big-project">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/demo/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
