@@ -102,10 +102,12 @@ public class Axolot extends DynamicEntity {
         List<Bomb> Bombs = bombList.getBombs();
         Rectangle now = new Rectangle(x, y, tileSize, tileSize);
         if (far < 5) {
+            int mx = 0;
             while (true) {
-                boolean dd = false;
-                int nextx = ThreadLocalRandom.current().nextInt(1, 20) * tileSize;
-                int nexty = ThreadLocalRandom.current().nextInt(1, 20) * tileSize;
+                boolean dd = false; mx ++;
+                if (mx > 1000) break;
+                int nextx = ThreadLocalRandom.current().nextInt(1, 19) * tileSize;
+                int nexty = ThreadLocalRandom.current().nextInt(1, 19) * tileSize;
                 Rectangle next = new Rectangle(nextx, nexty, tileSize, tileSize);
                 if (Collision(next, now)) continue;
                 for (Pair<Integer, Integer> i : Cannot) {
