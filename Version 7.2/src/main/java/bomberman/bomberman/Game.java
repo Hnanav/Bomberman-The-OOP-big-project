@@ -11,7 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static bomberman.bomberman.AIEnemy.*;
-import static bomberman.bomberman.CheckCollision.Collision;
+import static bomberman.bomberman.CheckCollision.*;
+import static bomberman.bomberman.LevelWindow.*;
 
 public class Game extends JPanel implements Runnable {
 /*    public static final int originalTileSize = 20;
@@ -26,7 +27,7 @@ public class Game extends JPanel implements Runnable {
     public static final int bomb_time = 150;
     public static final int explosion_time = 20;
     public static final int bomber_tileSize = 30;
-    public static int level = 15;
+
     private static int refreshSnake = 0;
     private static int refreshAxolot = 0;
     private static int refreshBeast = 0;
