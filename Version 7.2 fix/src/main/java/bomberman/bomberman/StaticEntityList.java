@@ -63,4 +63,9 @@ public class StaticEntityList {
             i.render(g2);
         }
     }
+
+    public void clear() {
+        desEntity.clear();
+        undesEntity.clear();
+    }
 }

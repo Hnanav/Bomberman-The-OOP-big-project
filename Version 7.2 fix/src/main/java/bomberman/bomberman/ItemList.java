@@ -56,4 +56,8 @@ public class ItemList {
             i.render(g2);
         }
     }
+
+    public void clear() {
+        items.clear();
+    }
 }

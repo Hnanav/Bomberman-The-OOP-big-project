@@ -28,32 +28,29 @@ public class Game extends JPanel implements Runnable {
     public static final int explosion_time = 20;
     public static final int bomber_tileSize = 30;
 
-    private static int refreshSnake = 0;
-    private static int refreshAxolot = 0;
-    private static int refreshBeast = 0;
-    //public static int refresh4 = 0;
-    private static int SnakeCooldown = 0;
-    private static int AxolotCooldown = 0;
-    private static int LimitrefreshSnake = 0;
-    private static int LimitrefreshAxolot = 0;
-    private static int LimitrefreshBeast = 0;
-    //public static int refresh4 = 0;
-    private static int LimitSnakeCooldown = 0;
-    private static int LimitAxolotCooldown = 0;
-    private static int LimitTeleSpeedSnake = 0;
-    private static int LimitSpeedSnake = 0;
-    private static int LimitSpeedAxolot = 0;
-    private static int LimitSpeedBeast = 0;
-    private static int CountAxolotInMap = 0;
-    private static int CountBeastInMap = 0;
-    private static int CountSnakeInMap = 0;
-    private static int CountEnemyInMap = 0;
+    private int refreshSnake = 0;
+    private int refreshAxolot = 0;
+    private int refreshBeast = 0;
+    private int SnakeCooldown = 0;
+    private int AxolotCooldown = 0;
+    private int LimitrefreshSnake = 0;
+    private int LimitrefreshAxolot = 0;
+    private int LimitrefreshBeast = 0;
+    private int LimitSnakeCooldown = 0;
+    private int LimitAxolotCooldown = 0;
+    private int LimitTeleSpeedSnake = 0;
+    private int LimitSpeedSnake = 0;
+    private int LimitSpeedAxolot = 0;
+    private int LimitSpeedBeast = 0;
+    private int CountAxolotInMap = 0;
+    private int CountBeastInMap = 0;
+    private int CountSnakeInMap = 0;
+    private int CountEnemyInMap = 0;
 
     public boolean loser = false;
     KeyHandler input = new KeyHandler();
     Thread gameThread;
     public static Alg alg = new Alg();
-
     public static char[][] map = new char[20][20];
     Bomber bomber = new Bomber(0, 0, 4,this, input);
     public static List<Pair<Integer, Integer> >  Cannot = new ArrayList<>();
@@ -120,10 +117,10 @@ public class Game extends JPanel implements Runnable {
                     update();
                 }
                 if(finished) {
+                    clear();
                     gameThread = null;
                     window_game.dispose();
                     LoseWindow lose = new LoseWindow();
-
                 }
 
                 repaint();
@@ -168,6 +165,10 @@ public class Game extends JPanel implements Runnable {
         order = 0;
         while (order < snakes.size()) {
             if (snakes.get(order).isDied()) {
+                int x1 = (int) snakes.get(order).getPos().getX();
+                int y1 = (int) snakes.get(order).getPos().getY();
+                BackgroundEntity tam = new SkeletalSnake(x1, y1);
+                BackgroundEntities.add(tam);
                 snakes.remove(order);
             }
             else order ++;
@@ -176,6 +177,10 @@ public class Game extends JPanel implements Runnable {
         order = 0;
         while (order < beasts.size()) {
             if (beasts.get(order).isDied()) {
+                int x1 = (int) beasts.get(order).getPos().getX();
+                int y1 = (int) beasts.get(order).getPos().getY();
+                BackgroundEntity tam = new SkeletalBeast(x1, y1);
+                BackgroundEntities.add(tam);
                 beasts.remove(order);
             }
             else order ++;
@@ -184,6 +189,10 @@ public class Game extends JPanel implements Runnable {
         order = 0;
         while (order < axolots.size()) {
             if (axolots.get(order).isDied()) {
+                int x1 = (int) axolots.get(order).getPos().getX();
+                int y1 = (int) axolots.get(order).getPos().getY();
+                BackgroundEntity tam = new SkeletalAxolot(x1, y1);
+                BackgroundEntities.add(tam);
                 axolots.remove(order);
             }
             else order ++;
@@ -239,13 +248,6 @@ public class Game extends JPanel implements Runnable {
             }
             refreshBeast = LimitrefreshBeast;
         }
-
-        /*if (refresh3 <= 0) {
-            for (Tele i : hole) {
-                i.update();
-            }
-            refresh3 = 10;
-        }*/
 
         if (refreshAxolot <= 0) {
             if (AxolotCooldown <= 0) {
@@ -349,12 +351,7 @@ public class Game extends JPanel implements Runnable {
                     StaticEntity tam = new Brick(j * tileSize, i * tileSize);
                     staticEntityList.add(tam, '*');
                 }
-                /*else if (map[i][j] == 'H') {
-                    Tele tam1 = new Tele(j * tileSize, i * tileSize);
-                    hole.add(tam1);
-                    BackgroundEntity tam = new Floor(j * tileSize, i * tileSize);
-                    BackgroundEntities.add(tam);
-                } */else {
+                else {
                     //int cnt = ThreadLocalRandom.current().nextInt(1,3);
                     if (map[i][j] == 'S') {
                         Snake tam = new Snake(j * tileSize, i * tileSize, LimitSpeedSnake);
@@ -373,19 +370,8 @@ public class Game extends JPanel implements Runnable {
                     BackgroundEntities.add(tam);
                 }
 
-                /*if (map[i][j] != '*' && map[i][j] != '#') {
-                    //System.out.println("hello: " + i + " " + j);
-                    x.CanMove(i, j, map);
-                    if (!x.getTrace().isEmpty()) {
-                        Cannot.add(x.getTrace());
-                        for (Pair<Integer, Integer> duyet : x.getTrace()) {
-                          System.out.println(duyet);
-                        }
-                    }
-                }*/
             }
         }
-        //System.out.println(CountEnemyInMap);
     }
 
     void drawmap(Graphics2D g2) throws IOException {
@@ -429,5 +415,25 @@ public class Game extends JPanel implements Runnable {
         else  {
             bomber.render_death(g2);
         }
+    }
+
+    void clear() {
+        Cannot.clear();
+        BackgroundEntities.clear();
+
+        for (int i = 0; i < 20; i++) {
+            for (int j = 0; j < 20; j++) {
+                bombed[i][j] = false;
+                itemed[i][j] = false;
+            }
+        }
+
+        BombExplosions.clear();
+        snakes.clear();
+        beasts.clear();
+        axolots.clear();
+        staticEntityList.clear();
+        bombList.clear();
+        itemList.clear();
     }
 }

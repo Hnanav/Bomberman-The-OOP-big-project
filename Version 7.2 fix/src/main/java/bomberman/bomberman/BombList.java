@@ -86,4 +86,8 @@ public class BombList {
             i.render(g2);
         }
     }
+
+    void clear() {
+        Bombs.clear();
+    }
 }

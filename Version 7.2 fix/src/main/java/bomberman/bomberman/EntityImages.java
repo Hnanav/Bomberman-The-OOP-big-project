@@ -12,13 +12,14 @@ public class EntityImages {
     public static BufferedImage wall;
     public static BufferedImage power_up, bomb_up, speed_up, speed_down;
     public static BufferedImage bomber_up_1, bomber_up_2, bomber_up_3, bomber_up_4, bomber_down_1, bomber_down_2,
-                                bomber_down_3, bomber_down_4, bomber_left_1, bomber_left_2, bomber_left_3, bomber_left_4,
-                                bomber_right_1, bomber_right_2, bomber_right_3, bomber_right_4,
-                                bomber_death_fly, bomber_death;
+            bomber_down_3, bomber_down_4, bomber_left_1, bomber_left_2, bomber_left_3, bomber_left_4,
+            bomber_right_1, bomber_right_2, bomber_right_3, bomber_right_4,
+            bomber_death_fly, bomber_death;
     public static BufferedImage bomb;
     public static BufferedImage bomb_exploded, explosion_horizontal, explosion_horizontal_left_last,
             explosion_horizontal_right_last, explosion_vertical, explosion_vertical_down_last,
             explosion_vertical_top_last;
+    public static BufferedImage skeletal_beast, skeletal_axolot, skeletal_snake;
     public EntityImages() throws IOException {
         try {
             floor = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/floor.png")));
@@ -50,7 +51,6 @@ public class EntityImages {
             speed_down = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/speed_down.png")));
 
             bomb = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/bomb.png")));
-
             bomb_exploded = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/bomb_exploded.png")));
             explosion_horizontal = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/explosion_horizontal.png")));
             explosion_horizontal_left_last = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/explosion_horizontal_left_last.png")));
@@ -58,6 +58,10 @@ public class EntityImages {
             explosion_vertical = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/explosion_vertical.png")));
             explosion_vertical_top_last = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/explosion_vertical_top_last.png")));
             explosion_vertical_down_last = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/explosion_vertical_down_last.png")));
+
+            skeletal_snake = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/skeletal_snake.png")));
+            skeletal_beast = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/skeletal_beast.png")));
+            skeletal_axolot = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Utils/Sprites/skeletal_axolot.png")));
         } catch (IOException e) {
             throw new RemoteException();
         }
