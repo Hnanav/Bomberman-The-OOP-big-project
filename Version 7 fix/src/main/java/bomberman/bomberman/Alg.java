@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Alg {
-    private static int[][] f = new int[30][30];
+    private static int[][] f = new int[25][25];
     private static List<Pair<Integer, Integer> > trace;
     private static char[][] map;
     Alg() {

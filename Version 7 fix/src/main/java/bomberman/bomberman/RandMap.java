@@ -170,17 +170,17 @@ public class RandMap {
 
     /** check de dat Brick. */
     public static boolean check(int x, int y) {
+        map[x][y] = '*';
         for (Entity get : Enemies) {
             int cnt = 0;
-            if (map[get.x][get.y] == 'E') {
-                if (!(get.x + 1 == x && get.y == y) || !(get.x - 1 == x && get.y == y)
-            || !(get.x == x && get.y + 1 == y) || !(get.x == x && get.y - 1 == y)) continue;
-                if (map[get.x + 1][get.y] != ' ') cnt ++;
-                if (map[get.x][get.y + 1] != ' ') cnt ++;
-                if (map[get.x - 1][get.y] != ' ') cnt ++;
-                if (map[get.x][get.y - 1] != ' ') cnt ++;
+            for (int i = Math.max(2, get.x - 4); i < Math.min(get.x + 4, 19); ++ i)
+                for (int j = Math.max(2, get.y - 4); j < Math.min(get.y + 4, 19); ++ j)
+                    if (map[i][j] == ' ') cnt ++;
+            if (cnt < 8) {
+                map[x][y] = ' ';
+                return false;
             }
-            if (cnt > 3) return false;
+
         }
         return true;
     }
