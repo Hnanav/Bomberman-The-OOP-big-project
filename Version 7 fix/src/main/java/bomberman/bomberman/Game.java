@@ -2,7 +2,6 @@ package bomberman.bomberman;
 
 import javafx.scene.shape.Rectangle;
 import javafx.util.Pair;
-
 import javax.swing.*;
 import java.awt.*;
 import java.io.FileInputStream;
@@ -10,8 +9,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static bomberman.bomberman.GameWindow.*;
 import static bomberman.bomberman.AIEnemy.*;
-import static bomberman.bomberman.CheckCollision.Collision;
+import static bomberman.bomberman.CheckCollision.*;
+import static bomberman.bomberman.LevelWindow.*;
 
 public class Game extends JPanel implements Runnable {
 /*    public static final int originalTileSize = 20;
@@ -26,7 +27,7 @@ public class Game extends JPanel implements Runnable {
     public static final int bomb_time = 150;
     public static final int explosion_time = 20;
     public static final int bomber_tileSize = 30;
-    public static int level = 12;
+
     private static int refreshSnake = 0;
     private static int refreshAxolot = 0;
     private static int refreshBeast = 0;
@@ -47,17 +48,11 @@ public class Game extends JPanel implements Runnable {
     private static int CountBeastInMap = 0;
     private static int CountSnakeInMap = 0;
     private static int CountEnemyInMap = 0;
+
+    public boolean loser = false;
     KeyHandler input = new KeyHandler();
     Thread gameThread;
-    public static EntityImages entityImages;
     public static Alg alg = new Alg();
-    static {
-        try {
-            entityImages = new EntityImages();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
     public static char[][] map = new char[20][20];
     Bomber bomber = new Bomber(0, 0, 4,this, input);
@@ -74,6 +69,7 @@ public class Game extends JPanel implements Runnable {
     public static List<Beast> beasts = new ArrayList<>();
     public static List<Axolot> axolots = new ArrayList<>();
 
+    public static boolean finished;
     Game() throws IOException {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
         this.setBackground(Color.black);
@@ -83,6 +79,7 @@ public class Game extends JPanel implements Runnable {
     }
 
     public void startGameThread() {
+        finished = false;
         gameThread = new Thread(this);
         gameThread.start();
     }
@@ -122,6 +119,13 @@ public class Game extends JPanel implements Runnable {
                     refreshAxolot--;
                     update();
                 }
+                if(finished) {
+                    gameThread = null;
+                    window_game.dispose();
+                    LoseWindow lose = new LoseWindow();
+
+                }
+
                 repaint();
                 delta--;
             }
@@ -132,41 +136,21 @@ public class Game extends JPanel implements Runnable {
         }
     }
     public void SetUpDifficult(int level) {
-        if (level <= 10) {
-            refreshSnake = 0;  refreshBeast = 0;
-            LimitrefreshSnake = 3;LimitrefreshBeast = 4;
-            SnakeCooldown = 20; //AxolotCooldown = 40;
-            LimitSnakeCooldown = 20; //LimitAxolotCooldown = 40;
-            LimitTeleSpeedSnake = 20;
-            LimitSpeedSnake = 2; LimitSpeedBeast = 8;
-            return;
-        }
-        if (level <= 20) {
-            refreshSnake = 0; refreshAxolot = 0; refreshBeast = 0;
-            LimitrefreshAxolot = 3; LimitrefreshSnake = 3; LimitrefreshBeast = 4;
-            SnakeCooldown = 10; AxolotCooldown = 20;
-            LimitSnakeCooldown = 20; LimitAxolotCooldown = 50;
-            LimitTeleSpeedSnake = 20;
-            LimitSpeedSnake = 2; LimitSpeedAxolot = 4; LimitSpeedBeast = 8;
-            return;
-        }
-        if (level <= 40) {
+        if (level <= 50) {
             refreshSnake = 0; refreshAxolot = 0; refreshBeast = 0;
             LimitrefreshAxolot = 3; LimitrefreshSnake = 3; LimitrefreshBeast = 3;
             SnakeCooldown = 20; AxolotCooldown = 40;
             LimitSnakeCooldown = 20; LimitAxolotCooldown = 40;
             LimitTeleSpeedSnake = 20;
-            LimitSpeedSnake = 4; LimitSpeedAxolot = 5; LimitSpeedBeast = 8;
-            return;
+            LimitSpeedSnake = 2; LimitSpeedAxolot = 4; LimitSpeedBeast = 8;
         }
-        if (level <= 50) {
-            refreshSnake = 0; refreshAxolot = 0; refreshBeast = 0;
-            LimitrefreshAxolot = 3; LimitrefreshSnake = 3; LimitrefreshBeast = 3;
-            SnakeCooldown = 10; AxolotCooldown = 20;
-            LimitSnakeCooldown = 10; LimitAxolotCooldown = 40;
+        if (level <= 10) {
+            refreshSnake = 0;  refreshBeast = 0; //refreshAxolot = 0;
+            LimitrefreshAxolot = 3; LimitrefreshSnake = 3; LimitrefreshBeast = 5;
+            SnakeCooldown = 20; //AxolotCooldown = 40;
+            LimitSnakeCooldown = 20; //LimitAxolotCooldown = 40;
             LimitTeleSpeedSnake = 20;
-            LimitSpeedSnake = 5; LimitSpeedAxolot = 5; LimitSpeedBeast = 10;
-            return;
+            LimitSpeedSnake = 2; LimitSpeedAxolot = 4; LimitSpeedBeast = 8;
         }
     }
     public void update() {
@@ -446,5 +430,4 @@ public class Game extends JPanel implements Runnable {
             bomber.render_death(g2);
         }
     }
-
 }
