@@ -20,6 +20,8 @@ public class LaunchMenu implements ActionListener{
     MenuButt settingButton = new MenuButt("Settings");
     MenuButt exitButton = new MenuButt("Exit");
 
+    Sound backgroundSound = new Sound();
+
     LaunchMenu() {
 
         ImageIcon img = new ImageIcon("D:\\Projects\\Bomberman\\Bomberman-The-OOP-big-project\\Version 5.1\\src\\main\\java\\bomberman\\bomberman\\menuImage.jpg");
@@ -67,7 +69,6 @@ public class LaunchMenu implements ActionListener{
         exitButton.setText("Exit");
 
 
-        frame.add(background);
         frame.add(playButton);
         frame.add(tutorialButton);
         frame.add(settingButton);
@@ -102,4 +103,5 @@ public class LaunchMenu implements ActionListener{
             frame.dispose();
         }
     }
+
 }

@@ -13,8 +13,8 @@ import static bomberman.bomberman.CheckCollision.Collision;
 import static bomberman.bomberman.RandMap.*;
 
 public class Game extends JPanel implements Runnable {
-/*    public static final int originalTileSize = 20;
-    public static final int scale = 2;*/
+    /*    public static final int originalTileSize = 20;
+        public static final int scale = 2;*/
 //    public static final int tileSize = originalTileSize * scale;
     public static final int tileSize = 40;
     public static final int screenCol = 20;
@@ -33,6 +33,8 @@ public class Game extends JPanel implements Runnable {
     public static int snakecooldown = 50;
     public static int axolotcooldown = 20;
     KeyHandler input = new KeyHandler();
+
+    static Sound sound = new Sound();
     Thread gameThread;
     public static EntityImages entityImages;
 
@@ -360,5 +362,4 @@ public class Game extends JPanel implements Runnable {
 
         itemList.render(g2);
     }
-
 }

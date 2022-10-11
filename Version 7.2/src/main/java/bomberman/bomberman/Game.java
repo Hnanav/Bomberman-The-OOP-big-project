@@ -2,7 +2,6 @@ package bomberman.bomberman;
 
 import javafx.scene.shape.Rectangle;
 import javafx.util.Pair;
-
 import javax.swing.*;
 import java.awt.*;
 import java.io.FileInputStream;
@@ -10,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static bomberman.bomberman.GameWindow.*;
 import static bomberman.bomberman.AIEnemy.*;
 import static bomberman.bomberman.CheckCollision.*;
 import static bomberman.bomberman.LevelWindow.*;
@@ -48,17 +48,11 @@ public class Game extends JPanel implements Runnable {
     private static int CountBeastInMap = 0;
     private static int CountSnakeInMap = 0;
     private static int CountEnemyInMap = 0;
+
+    public boolean loser = false;
     KeyHandler input = new KeyHandler();
     Thread gameThread;
-    public static EntityImages entityImages;
     public static Alg alg = new Alg();
-    static {
-        try {
-            entityImages = new EntityImages();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
     public static char[][] map = new char[20][20];
     Bomber bomber = new Bomber(0, 0, 4,this, input);
@@ -75,6 +69,7 @@ public class Game extends JPanel implements Runnable {
     public static List<Beast> beasts = new ArrayList<>();
     public static List<Axolot> axolots = new ArrayList<>();
 
+    public static boolean finished;
     Game() throws IOException {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
         this.setBackground(Color.black);
@@ -84,6 +79,7 @@ public class Game extends JPanel implements Runnable {
     }
 
     public void startGameThread() {
+        finished = false;
         gameThread = new Thread(this);
         gameThread.start();
     }
@@ -123,6 +119,13 @@ public class Game extends JPanel implements Runnable {
                     refreshAxolot--;
                     update();
                 }
+                if(finished) {
+                    gameThread = null;
+                    window_game.dispose();
+                    LoseWindow lose = new LoseWindow();
+
+                }
+
                 repaint();
                 delta--;
             }
@@ -427,5 +430,4 @@ public class Game extends JPanel implements Runnable {
             bomber.render_death(g2);
         }
     }
-
 }

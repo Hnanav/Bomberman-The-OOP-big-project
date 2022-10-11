@@ -20,13 +20,24 @@ public class LaunchMenu implements ActionListener{
     MenuButt settingButton = new MenuButt("Settings");
     MenuButt exitButton = new MenuButt("Exit");
 
+    public static EntityImages entityImages;
+
     LaunchMenu() {
 
         ImageIcon img = new ImageIcon("D:\\Projects\\Bomberman\\Bomberman-The-OOP-big-project\\Version 5.1\\src\\main\\java\\bomberman\\bomberman\\menuImage.jpg");
         background = new JLabel("",img,JLabel.CENTER);
         background.setBounds(0,0,800,800);
 
-        playButton.setBounds(300, 300, 180, 50);
+        try {
+            if (entityImages == null) {
+                System.out.println(2);
+                entityImages = new EntityImages();
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        playButton.setBounds(300, 300, 180, 65);
         playButton.setFocusable(false);
         playButton.addActionListener(this);
         playButton.setHorizontalTextPosition(JButton.CENTER);
@@ -35,18 +46,10 @@ public class LaunchMenu implements ActionListener{
         playButton.setRadius(60);
         playButton.setBorderPainted(false);
         playButton.setText("Play");
+        playButton.setFont(new Font("debussy", Font.BOLD, 30));
 
-        tutorialButton.setBounds(300,370, 180, 50);
-        tutorialButton.setFocusable(false);
-        tutorialButton.addActionListener(this);
-        tutorialButton.setHorizontalTextPosition(JButton.CENTER);
-        tutorialButton.setVerticalTextPosition(JButton.BOTTOM);
-        tutorialButton.setBorder(BorderFactory.createEtchedBorder());
-        tutorialButton.setRadius(60);
-        tutorialButton.setBorderPainted(false);
-        tutorialButton.setText("Tutorial");
 
-        settingButton.setBounds(300, 440, 180, 50);
+        settingButton.setBounds(300, 390, 180, 65);
         settingButton.setFocusable(false);
         settingButton.addActionListener(this);
         settingButton.setHorizontalTextPosition(JButton.CENTER);
@@ -55,8 +58,9 @@ public class LaunchMenu implements ActionListener{
         settingButton.setRadius(60);
         settingButton.setBorderPainted(false);
         settingButton.setText("Setting");
+        settingButton.setFont(new Font("debussy", Font.BOLD, 30));
 
-        exitButton.setBounds(300, 510, 180, 50);
+        exitButton.setBounds(300, 480, 180, 65);
         exitButton.setFocusable(false);
         exitButton.addActionListener(this);
         exitButton.setHorizontalTextPosition(JButton.CENTER);
@@ -65,6 +69,7 @@ public class LaunchMenu implements ActionListener{
         exitButton.setRadius(60);
         exitButton.setBorderPainted(false);
         exitButton.setText("Exit");
+        exitButton.setFont(new Font("debussy", Font.BOLD, 30));
 
 
         frame.add(background);

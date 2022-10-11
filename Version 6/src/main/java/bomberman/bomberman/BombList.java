@@ -61,7 +61,7 @@ public class BombList {
 
     public void update() {
         get_explosions();
-
+     //
         int order = 0;
         while (order < Bombs.size()) {
             Bomb tam = Bombs.get(order);

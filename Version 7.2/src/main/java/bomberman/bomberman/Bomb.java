@@ -4,7 +4,8 @@ import java.awt.*;
 import java.io.IOException;
 
 import static bomberman.bomberman.Game.bomb_time;
-import static bomberman.bomberman.Game.entityImages;
+import static bomberman.bomberman.LaunchMenu.*;
+import static bomberman.bomberman.Sound.*;
 
 public class Bomb extends Entity{
     private int countdown;

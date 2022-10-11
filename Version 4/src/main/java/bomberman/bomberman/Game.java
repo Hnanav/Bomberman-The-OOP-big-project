@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+
 public class Game extends JPanel implements Runnable {
 
     public static final int originalTileSize = 20;
@@ -36,7 +37,6 @@ public class Game extends JPanel implements Runnable {
     public static char[][] map = new char[20][20];
     Bomber bomber = new Bomber(0, 0, 5,this, input);
     public static List<StaticEntity> StaticEntities = new ArrayList<>();
-    public static List<BackgroundEntity> BackgroundEntities = new ArrayList<>();
     public static BombList bombList = new BombList();
     public static boolean[][] bombed = new boolean[20][20];
     public static List<BombExplosion> BombExplosions = new ArrayList<>();

@@ -1,6 +1,6 @@
 package bomberman.bomberman;
 
-import static bomberman.bomberman.Game.entityImages;
+import static bomberman.bomberman.LaunchMenu.*;
 
 public class Floor extends BackgroundEntity{
     Floor(int x, int y) {

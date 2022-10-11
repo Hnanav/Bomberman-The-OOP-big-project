@@ -6,18 +6,26 @@ import java.io.IOException;
 
 public class GameWindow {
 
-    JFrame window = new JFrame();
+    JFrame gameWindow = new JFrame();
+    Sound sound = new Sound();
     GameWindow() throws IOException {
-        window.setDefaultCloseOperation(window.EXIT_ON_CLOSE);
-        window.setResizable(false);
-        window.setTitle("2D Bomberman");
+        gameWindow.setDefaultCloseOperation(gameWindow.EXIT_ON_CLOSE);
+        gameWindow.setResizable(false);
+        gameWindow.setTitle("2D Bomberman");
+
+        sound.setFile("D:\\Projects\\Bomberman\\Bomberman-The-OOP-big-project\\Version 6\\src\\main\\resources\\Sounds\\BGM.wav");
+        sound.playMusic();
 
         Game game = new Game();
-        window.add(game);
+        gameWindow.add(game);
 
-        window.pack();
-        window.setLocationRelativeTo(null);
-        window.setVisible(true);
+        gameWindow.pack();
+        gameWindow.setLocationRelativeTo(null);
+        gameWindow.setVisible(true);
+
+
+
+
 
         game.startGameThread();
     }

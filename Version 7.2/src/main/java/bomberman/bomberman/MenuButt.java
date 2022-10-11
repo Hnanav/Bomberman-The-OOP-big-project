@@ -59,10 +59,10 @@ import javax.swing.JButton;
             this.radius = radius;
         }
 
+
         public MenuButt(String play) {
             //  Init Color
-
-            setColor(Color.WHITE);
+            setColor(new Color(204,255,229));
             colorOver = new Color(179, 250, 160);
             colorClick = new Color(152, 184, 144);
             borderColor = new Color(30, 136, 56);

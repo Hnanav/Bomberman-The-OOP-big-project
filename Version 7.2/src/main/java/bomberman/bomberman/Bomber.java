@@ -291,6 +291,9 @@ public class Bomber extends DynamicEntity{
         else {
             fly_distance = (--fly_distance >= 0) ? fly_distance : 0;
             g2.drawImage(death, x, y - fly_distance, width, height, null);
+            if(fly_distance==0) {
+                finished = true;
+            }
         }
     }
 }

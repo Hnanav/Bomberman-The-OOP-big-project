@@ -1,6 +1,6 @@
 package bomberman.bomberman;
 
-import static bomberman.bomberman.Game.entityImages;
+import static bomberman.bomberman.LaunchMenu.*;
 
 public class Wall extends StaticEntity{
     Wall(int x, int y) {

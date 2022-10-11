@@ -11,8 +11,10 @@ public class EntityImages {
     public BufferedImage bomb_exploded_1, explosion_horizontal_1, explosion_horizontal_left_last_1,
                          explosion_horizontal_right_last_1, explosion_vertical_1, explosion_vertical_down_last_1,
                          explosion_vertical_top_last_1;
+    public BufferedImage menuBackground;
 
     public EntityImages() throws IOException {
+        menuBackground = ImageIO.read(getClass().getResourceAsStream("/assets/Item/menu_background.jpg"));
         grass = ImageIO.read(getClass().getResourceAsStream("/Utils/Sprites/grass.png"));
 
         wall = ImageIO.read(getClass().getResourceAsStream("/Utils/Sprites/wall.png"));
