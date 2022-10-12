@@ -4,140 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c887e4a-b864-474f-8b66-42fd7df16a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/LoseWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Sound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Bomberman-The-OOP-big-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Bomberman-The-OOP-big-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test36.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test37.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test40.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test41.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test42.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test43.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test44.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test45.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test46.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test46.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test47.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test47.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test48.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test49.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test49.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test50.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ver7/test9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ver7/test9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/EntityImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/EntityImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/GameWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/LaunchMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/LaunchMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/PlayWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/PlayWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/SettingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 4/src/main/java/bomberman/bomberman/SettingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 5.1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 5.1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 5.1/src/main/java/bomberman/bomberman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 5.1/src/main/java/bomberman/bomberman/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 5.1/src/main/java/bomberman/bomberman/MenuButt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 5.1/src/main/java/bomberman/bomberman/MenuButt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 5.1/src/main/java/bomberman/bomberman/menu_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/BombList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/BombList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/GameWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/LaunchMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/LaunchMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/src/main/java/bomberman/bomberman/Sound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test36.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test37.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test40.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test41.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test42.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test43.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test44.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test45.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test46.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test46.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test47.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test47.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test48.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test49.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test49.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test50.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Version 6/test9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Version 6/test9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Bomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Bomber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Bomber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Brick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/GameWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/LaunchMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/LaunchMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/LevelWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/LevelWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/MenuButt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/MenuButt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/SettingWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bomberman/bomberman/Wall.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c887e4a-b864-474f-8b66-42fd7df16a3f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Bomberman/Bomberman-The-OOP-big-project/Version 7.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Projects/Bomberman/Bomberman-The-OOP-big-project/Ver7"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bomberman.bomberman.Main" />

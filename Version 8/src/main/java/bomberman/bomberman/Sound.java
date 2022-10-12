@@ -39,7 +39,7 @@ public class Sound {
         FloatControl gainControl =
                 (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
         gainControl.setValue(-12.0f);
-        clip.loop(100);
+        clip.loop(2);
     }
 
     public void playEffect() {

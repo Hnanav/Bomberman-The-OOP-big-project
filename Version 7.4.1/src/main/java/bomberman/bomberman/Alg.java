@@ -40,6 +40,7 @@ public class Alg {
         for (int i = 0; i < 20; ++ i)
             for (int j = 0; j < 20; ++j)
                 if (f[i][j] == -1 && map[i][j] != '*' &&
-                        map[i][j] != '#') trace.add(new Pair<>(j, i));
+                        map[i][j] != '#')
+                    trace.add(new Pair<>(j, i));
     }
 }

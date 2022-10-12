@@ -139,11 +139,12 @@ public class Game extends JPanel implements Runnable {
                     clear();
                     gameThread = null;
                     window.dispose();
+
                     if (YouLose()) {
                         LoseWindow lose = new LoseWindow();
                     }
-                    if (YouWin()) {
-
+                    else if (YouWin()) {
+                        WinWindow win = new WinWindow();
                     }
                 }
 

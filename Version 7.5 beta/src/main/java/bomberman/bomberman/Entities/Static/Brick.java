@@ -1,8 +1,10 @@
 package bomberman.bomberman;
 
+import bomberman.bomberman.Entities.StaticEntity;
+
 import static bomberman.bomberman.EntityImages.brick;
 
-public class Brick extends StaticEntity{
+public class Brick extends StaticEntity {
     Brick(int x, int y) {
         super(x, y);
         getImage();

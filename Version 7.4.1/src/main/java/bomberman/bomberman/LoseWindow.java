@@ -32,9 +32,14 @@ public class LoseWindow implements ActionListener {
         BackToMenu.addActionListener(this);
         BackToMenu.setBorderPainted(false);
         BackToMenu.setFont(new Font("debussy", Font.PLAIN, 20));
+        BackToMenu.setColor(new Color(223,103,103));
+        BackToMenu.setBorderColor(new Color(87,6,6));
+        BackToMenu.setColorClick(new Color(242,140,140));
+        BackToMenu.setColorOver(new Color(242,140,140));
         BackToMenu.setText("Back To Menu");
         LoseWindow.add(BackToMenu);
         LoseWindow.add(lvImage);
+
     }
 
     public void actionPerformed(ActionEvent e) {

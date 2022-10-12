@@ -8,7 +8,6 @@ import static bomberman.bomberman.Main.*;
 
 public class GameWindow {
 
-  //  public static JFrame window_game;
 
     GameWindow() throws IOException {
         window = new JFrame();
@@ -35,6 +34,7 @@ public class GameWindow {
         if(game.gameThread == null) {
             if (sound == null) System.out.println(1);
             window.dispose();
+            sound.stop();
         }
     }
 
