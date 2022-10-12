@@ -7,7 +7,7 @@
 - Menu
 ![Screenshot 2022-10-12 at 10 50 39 PM](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/Screenshot%202022-10-12%20225039.png)
 - Inheritance Tree
-![UMLdiagram](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/InheritanceTree.png)
+![UMLdiagram](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/UMLdiagram.png)
 ### Usages
 - Requirement: Install [JDK19 Environment](https://www.oracle.com/java/technologies/downloads/#java19) and [Intellij 2022.2.2](https://www.jetbrains.com/idea/download/#section=windows)
 - How to Run: [/src/main/java/bomberman/bomberman/Main.java](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/Bomberman/src/main/java/bomberman/bomberman/Main.java) to play game.
