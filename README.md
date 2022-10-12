@@ -15,9 +15,9 @@
 - Bomberman.
 - Y8, etc.
 ### Members
-- Trần Thị Vân Anh(Leader) [Hnanav](https://github.com/Hnanav)
+- Trần Thị Vân Anh [Hnanav](https://github.com/Hnanav)
   * Contribute: Graphic, Effect, Music, etc.
-- Hoàng Minh Quang [KevinHoag](https://github.com/KevinHoag)
+- Hoàng Minh Quang(Leader) [KevinHoag](https://github.com/KevinHoag)
   * Contribute: Core, Logic game.
 - Nguyễn Thanh Sơn [Rye1606Zz](https://github.com/thanhsonopera)
   * Contribute: Algorithm, AI(phake).
