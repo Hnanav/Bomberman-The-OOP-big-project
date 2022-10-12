@@ -5,7 +5,7 @@
 - Overview 
 ![play](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/play.png)
 - Menu
-![Screenshot 2022-10-12 at 10 50 39 PM](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/Screenshot%202022-10-12%20225039.png)
+![Menu](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/Menu.png)
 - Inheritance Tree
 ![UMLdiagram](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/UMLdiagram.png)
 ### Usages
