@@ -2,8 +2,8 @@
 - The big project of Object Oriented Programming (INT2204 44) UET VNU
 - --
 ### Previews
-- Overview 
-![play](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/play.png)
+- Overview
+- ![play](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/play.png)
 - Menu
 ![Menu](https://github.com/Hnanav/Bomberman-The-OOP-big-project/blob/master/Menu.png)
 - Inheritance Tree
